@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nearest-color",
+        "command": "nearest-color:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nearest-color",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nearest-color:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
